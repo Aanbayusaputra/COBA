@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  image{
+    border-image-width: 10px;
+  }
+  .card {
+   display: inline-block;
+  }
+  h4{
+    text-align:center;
+
+  }
+  p{
+    text-align: center;
+  }
+  body{
+    background-color: aqua;
+  }
+  .card{
+    display: inline-block;
+  }
+  .card1{
+    border: 2px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#BEF0CB;
+    border: 2px solid red;
+    border-radius: 20px ;
+    box-shadow: 0 8px 16px 0rgba(0.0.0.0.4);
+
+  }
+
+  .card2{
+    border: 1px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#BEF0CB;
+    border: 2px solid red;
+    border-radius: 20px ;
+  }
+
+  .card3{
+    border: 1px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#BEF0CB;
+    border: 1px solid red;
+    border-radius: 20px ;
+  }
+
+  .card4{
+    border: 1px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#BEF0CB;
+    border: 1px solid red;
+    border-radius: 20px ;
+  }
+  .card-k{
+    border: 2px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#54befc;
+    border: 2px solid rgb(233, 7, 131);
+    border-radius: 20px ;
+    box-shadow: 0 8px 16px 0rgba(0.0.0.0.4);
+  }
+  .card-l{
+    border: 2px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#54befc;
+    border: 2px solid rgb(233, 7, 131);
+    border-radius: 20px ;
+    box-shadow: 0 8px 16px 0rgba(0.0.0.0.4);
+  }
+  .card-kt{
+    border: 2px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#54befc;
+    border: 2px solid rgb(233, 7, 131);
+    border-radius: 20px ;
+    box-shadow: 0 8px 16px 0rgba(0.0.0.0.4);
+  }
+  .card-b{
+    border: 2px solid #1d0ef8;
+    border-radius: 0px;
+    overflow: hidden;
+    width: auto;
+    background-color:#54befc;
+    border: 2px solid rgb(233, 7, 131);
+    border-radius: 20px ;
+    box-shadow: 0 8px 16px 0rgba(0.0.0.0.4);
+  }
