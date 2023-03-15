@@ -1,17 +1,18 @@
-.container{
+.wrapper{
     display: flex;
     height: auto;
     width: fit-content;
     flex-direction: column;
     gap: 10px;
+    
 }
-.container1{
+.wrapper1{
     display: flex;
     height: 400px;
     width: 400px;
     gap: 10px;
 }
-.contain1{
+.wrap1{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -31,7 +32,7 @@
     height: 50%;
     background-color: rgb(23, 238, 23);
 }
-.contain2{
+.wrap2{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -44,13 +45,13 @@
     height: 25%;
     background-color: rgb(8, 225, 233);
 }
-.contain3{
+.wrap3{
     display: flex;
     flex-direction: row;
     height: 75%;
     gap: 10px;
 }
-.contain4{
+.wrap4{
     display: flex;
     width: 50px;
     flex-direction: column;
@@ -70,7 +71,7 @@
     height: 33.33%;
     background-color: purple;
 }
-.contain5{
+.wrap5{
     display: flex;
     width: 50px;
     flex-direction: column;
@@ -90,14 +91,14 @@
     height: 66.66%;
     background-color: darkorange;
 }
-.container2{
+.wrapper2{
     display: flex;
     width: 200px;
     height: 400px;
     flex-direction: column;
     gap: 10px;
 }
-.contain6{
+.wrap6{
     display: flex;
     height: 50%;
     flex-direction: row;
