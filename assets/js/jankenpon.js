@@ -1,5 +1,5 @@
 var myFunction = function(){
-    var SrpChoice = prompt("Input Nilai:\n-Batu = 0.\n-Kertas = 5.\n-Gunting = 2.");
+    var SrpChoice = prompt("Input Nilai:\n-✊ = 0.\n-🖐️ = 5.\n-✌️ = 2.");
     var HuChoice = parseInt(SrpChoice);
     
     var Srp= function (Choice) {
@@ -15,16 +15,16 @@ var myFunction = function(){
         switch(playerType){
      case 1:
         if (Check === 2){
-                document.getElementById("hasilH").innerHTML=( Player +"'s Choice = Gunting");
+                document.getElementById("hasilH").innerHTML=( Player +"'s Choice = ✌️");
                 }else if(Check === 0){
-                    document.getElementById("hasilH").innerHTML=(Player +"'s Choice = Batu");
-        }else{document.getElementById("hasilH").innerHTML=(Player +"'s Choice = kertas");         }break;
+                    document.getElementById("hasilH").innerHTML=(Player +"'s Choice =✊");
+        }else{document.getElementById("hasilH").innerHTML=(Player +"'s Choice = 🖐️");         }break;
      case 2:
       if (Check === 2){
-                document.getElementById("hasilC").innerHTML=( Player +"'s Choice = Gunting");
+                document.getElementById("hasilC").innerHTML=( Player +"'s Choice = ✌️");
                 }else if(Check === 0){
-                    document.getElementById("hasilC").innerHTML=(Player +"'s Choice = Batu");
-        }else{document.getElementById("hasilC").innerHTML=(Player +"'s Choice = Kertas"); }break;
+                    document.getElementById("hasilC").innerHTML=(Player +"'s Choice =✊");
+        }else{document.getElementById("hasilC").innerHTML=(Player +"'s Choice = 🖐️"); }break;
      default: document.getElementById("hasilC").innerHTML="error"; 
        document.getElementById("hasilH").innerHTML="error";break;
      }

@@ -5,6 +5,8 @@ var name = "Aan Bayu Saputra"
 // menampilkan variabel ke jendela dialog (alert)
 alert("Selamat datang di " + name);
 
+// menampilkan variabel ke HTML
+
    console.log( typeof a );          // number
  
    let b = 12.3456789;
