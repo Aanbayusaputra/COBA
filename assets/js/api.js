@@ -1,4 +1,4 @@
-// fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa", {
+// fetch("https://crudcrud.com/api/14df41df9d6a4c4181a5e57db482edd2/mahasiswa", {
 //     method: 'POST',
 //     headers: {
 //         'Content-Type': 'application/json'
@@ -12,8 +12,8 @@
 // })
 
 
-    // .then((response) => response.json())
-    // .then((data) => console.log(data));
+//     .then((response) => response.json())
+//     .then((data) => console.log(data));
 let dataPost = {
     name: "fizi",
     city: "Brebes",
@@ -28,13 +28,13 @@ let fetchOptions ={
     body: JSON.stringify(dataPost)
 };
 
-fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa",
+fetch("https://crudcrud.com/api/14df41df9d6a4c4181a5e57db482edd2/mahasiswa",
 fetchOptions)
 
 .then((response) => response.json())
 .then((data) => console.log(data));
 
-fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa")
+fetch("https://crudcrud.com/api/14df41df9d6a4c4181a5e57db482edd2/mahasiswa")
 
 .then((response) => response.json())
 .then((data) => console.log(data));
