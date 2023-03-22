@@ -15,6 +15,7 @@ i {
   
   input:focus {
     box-shadow: none !important;
+
   }
   
   /* dark-mode style */
@@ -28,7 +29,8 @@ i {
   body.darkMode {
     background-color: #000000;
   }
-  
+
+   
   .card.darkMode {
     background-color: #52057b !important;
     color: #892cdc !important;

@@ -42,6 +42,8 @@ form.addEventListener("submit", function (event) {
 
   renderTodo(inputUser.value);
 
+  
+
   // Menambahkan item baru ke local storage
   manageLocalStorage("TAMBAH", inputUser.value);
 
@@ -58,6 +60,10 @@ listGroup.addEventListener("click", function (event) {
   
 });
 
+
+
+
+
 // dark mode
 switchDarkMode.addEventListener('change', function () {
 
@@ -67,3 +73,59 @@ switchDarkMode.addEventListener('change', function () {
   switchDarkMode.classList.toggle('darkMode');
 
 });
+
+// Rest API
+// fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa")
+// .then((res) => console.log(res.json()));
+
+// .then((data) => console.log(data));
+
+// let dataPOST ={
+//   name: "Aan",
+//   city: "Brebes",
+//   hobies:["sport", "sleeping"],
+// };
+
+// let fetchOptions = {
+//   method : "POST",
+//   header :{
+//   "Content-Type" : "application/json",
+// },
+// "body": JSON.stringify(dataPOST),
+// };
+
+// fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa", fetchOptions),
+// .then((response) => response.json())
+// .then((data) =>{ 
+//   console.log(data);
+// })
+// .catch((error)=> {
+//   console.log(error);
+// });
+
+// const baseUrl = "https://crudcrud.com/api/";
+// const apiKey = "fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa";
+// const url = baseUrl + apiKey;
+// const endpointMahasiswa = `${url}/mahasiswa`;
+// const endpointDosen = `${url}/dosen`;
+
+// const handleError = (error) => console.log(error);
+// const handleSuccess = (result) => console.log(result);
+
+// let dataPost ={
+//   Name: "Aan",
+//   city: "Brebes",
+//   hobbies: ["sport", "Playing Game"],
+// };
+
+// let fetchOptions = {
+//  " method": "Post",
+
+//   "headers": {
+//       "Content-Type": "application/json",
+//   },
+//   "body": JSON.stringify(dataPost)
+// };
+// fetch("https://crudcrud.com/api/fa9ad1bf7f014d1ab1679941634d46f5/mahasiswa",fetchOptions)
+// .then((res) => res.json())
+// .then((data) => console.log(data));

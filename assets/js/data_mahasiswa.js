@@ -1000,14 +1000,3 @@ let mahasiswa = [
   { id: 998, name: "Blythe Motsinger", gender: "F", score: 61 },
   { id: 999, name: "Christeen Paris", gender: "M", score: 82 },
 ];
-console.log (mahasiswa);
-let data ={
-  "female": {
-    "count" :femalemap .length
-    "score" : {
-              "averege" : femalemap.averege
-              "max" : Math.max()
-              "min"  : Math.min()
-    }
-  }
-};
