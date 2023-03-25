@@ -1,0 +1,186 @@
+
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+ 
+.header {
+  display: inline;
+  text-align: center;
+  
+}
+ .judul{
+    text-align: center;
+ }
+nav {
+  background-color: #f5f4f9;
+  padding: 5px;
+  position:relative;
+  top: 0;
+}
+ 
+nav ul {
+  padding-inline: 50rem;
+  display: flex;
+  gap: 2rem;
+  
+  
+}
+ 
+nav li {
+  list-style-type: none;
+}
+ 
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 47, 255);
+}
+nav a:hover {
+    font-weight: bold;
+    font-size: 17px;
+  }
+ 
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    margin:1em;
+    padding: 1em;
+    display:inline-block;
+    width: 75%;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-content{
+    padding: 0 20px;
+    margin: 0 1em;
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.card-title, .card-text{
+    color: black;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background:rgb(68, 0, 255);
+
+    }
+    .card{
+        width:100%;
+        display: block;
+        flex-direction: column;
+    }
+    .card-image{
+        width:100%;
+    }
+    .card-content{
+        display:block;
+    }
+    .card-text{
+        display: none;
+    }
+}
+
+aside {
+    flex: 1;
+  }
+.profile {
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+   
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background:#fff;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px #f70b0b;
+    margin:1em;
+    padding: 1em;
+    display:inline-block;
+    width: 75%;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-content{
+    padding: 0 20px;
+    margin: 0 1em;
+    width: 50%;
+}
+
+.card-title, .card-text{
+    color: black;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background:red;
+
+    }
+    .card{
+        width:100%;
+        display: block;
+    }
+    .card-image{
+        width:100%;
+    }
+    .card-content{
+        display:block;
+    }
+    .card-text{
+        display: none;
+    }
+   
+  }
+.artikel{
+    width: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
