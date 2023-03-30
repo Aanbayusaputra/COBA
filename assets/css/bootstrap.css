@@ -1,0 +1,28 @@
+
+.profile {
+    box-shadow: 0 2px 8px 2px rgba(6, 231, 62, 0.2);
+    border-radius: 2px;
+    padding: 5px;
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    background-color: blue;
+
+  }
+  
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: bold;
+  }
+
+
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+}
+    
+  
+ 
